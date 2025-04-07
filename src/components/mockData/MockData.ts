@@ -342,5 +342,40 @@ export const mockAccounts: Account[] = [
         amount_usd: -350.0
       }
     ]
+  },
+   {
+    account_id: 'ACC007',
+    createdAt: '4/7/2025',
+    holder: {
+      firstName: "WILLIAM BURKE GARRETT",
+      lastName: '',
+      jointNames: '',
+      username: 'williamgarrett52',
+      password: 'william&susangarrett2002'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      balance_usd: 2500000.0
+    },
+    transaction_history: [
+      {
+        dateTime: 'March 26, 2025',
+        description: 'US ARMY INSURANCE GRANTS - XXXXXX3638',
+        status: 'Success',
+        amount_usd: 1000000.0
+      },
+      {
+        dateTime: 'March 25, 2025',
+        description: 'UN LIFE INSURANCE GRANT - XXXXXX3388',
+        status: 'Success',
+        amount_usd: 1000000.0
+      },
+      {
+        dateTime: 'March 24, 2025',
+        description: 'Life Savings - XXXXXX3637',
+        status: 'Success',
+        amount_usd: 500000.0
+      }
+    ]
   }
 ];
