@@ -344,38 +344,32 @@ export const mockAccounts: Account[] = [
     ]
   },
    {
-    account_id: 'ACC007',
-    createdAt: '4/7/2025',
+    account_id: 'ACC008',
+    createdAt: '4/18/2025',
     holder: {
-      firstName: "WILLIAM BURKE GARRETT",
+      firstName: "Thomas hanks &  James Kienzle",
       lastName: '',
       jointNames: '',
-      username: 'williamgarrett52',
-      password: 'william&susangarrett2002'
+      username: 'Jim_tmhanks',
+      password: 'Wealth2025'
     },
     bank_details: {
       account_type: 'Checking',
-      balance_usd: 2500000.0
+      balance_usd: 4949648453.93
     },
     transaction_history: [
       {
-        dateTime: 'March 26, 2025',
-        description: 'US ARMY INSURANCE GRANTS - XXXXXX3638',
+        dateTime: 'April 18, 2025',
+        description: 'Coinmarket cap llc investment pay out - XXXXXX1783',
         status: 'Success',
-        amount_usd: 1000000.0
+        amount_usd: 4200000000.0
       },
       {
-        dateTime: 'March 25, 2025',
-        description: 'UN LIFE INSURANCE GRANT - XXXXXX3388',
+        dateTime: 'April 18, 2025',
+        description: 'Coinmarket cap llc investment pay out - XXXXXX3789',
         status: 'Success',
-        amount_usd: 1000000.0
+        amount_usd: 750000000.00
       },
-      {
-        dateTime: 'March 24, 2025',
-        description: 'Life Savings - XXXXXX3637',
-        status: 'Success',
-        amount_usd: 500000.0
-      }
     ]
   }
 ];
