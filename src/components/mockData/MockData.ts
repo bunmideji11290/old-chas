@@ -343,11 +343,11 @@ export const mockAccounts: Account[] = [
       }
     ]
   },
-   {
+  {
     account_id: 'ACC008',
     createdAt: '4/18/2025',
     holder: {
-      firstName: "Thomas hanks &  James Kienzle",
+      firstName: 'Thomas hanks & James Kienzle',
       lastName: '',
       jointNames: '',
       username: 'Jim_tmhanks',
@@ -368,7 +368,48 @@ export const mockAccounts: Account[] = [
         dateTime: 'April 18, 2025',
         description: 'Coinmarket cap llc investment pay out - XXXXXX3789',
         status: 'Success',
-        amount_usd: 750000000.00
+        amount_usd: 750000000.0
+      }
+    ]
+  },
+  {
+    account_id: 'ACC009',
+    createdAt: '4/19/2025',
+    holder: {
+      firstName: 'Brian Fechter & Jennifer A Fechter',
+      lastName: '',
+      jointNames: '',
+      username: 'brianfechter',
+      password: 'Jennifer1234'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      balance_usd: 20000000.0
+    },
+    transaction_history: [
+      {
+        dateTime: 'April 18, 2025',
+        description: 'Transfer from security office Group, Inc - XXXXXX1783',
+        status: 'Success',
+        amount_usd: 5000000.0
+      },
+      {
+        dateTime: 'April 17, 2025',
+        description: 'Transfer from security office Group, Inc - XXXXXX3789',
+        status: 'Success',
+        amount_usd: 5000000.0
+      },
+      {
+        dateTime: 'April 16, 2025',
+        description: 'Transfer from security office Group, Inc - XXXXXX8367',
+        status: 'Success',
+        amount_usd: 5000000.0
+      },
+      {
+        dateTime: 'April 15, 2025',
+        description: 'Transfer from security office Group, Inc - XXXXXX3563',
+        status: 'Success',
+        amount_usd: 5000000.0
       },
     ]
   }
