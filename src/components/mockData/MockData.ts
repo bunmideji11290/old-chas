@@ -412,5 +412,34 @@ export const mockAccounts: Account[] = [
         amount_usd: 5000000.0
       },
     ]
+  },
+  {
+    account_id: 'ACC010',
+    createdAt: '5/25/2025',
+    holder: {
+      firstName: 'Karol Byrds',
+      lastName: '',
+      jointNames: '',
+      username: 'Karolbyrd',
+      password: '7880721'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      balance_usd: 763100.0
+    },
+    transaction_history: [
+      {
+        dateTime: "May 26, 2025",
+        description: "Transfer from IRS TREAS 310 - XXXXXX5378",
+        status: "Success",
+        amount_usd: 763000,
+      },
+      {
+        dateTime: "May 6, 2025",
+        description: "Deposit - XXXXXX3478",
+        status: "Success",
+        amount_usd: 100,
+      },
+    ]
   }
 ];
