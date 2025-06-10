@@ -379,8 +379,8 @@ export const mockAccounts: Account[] = [
       firstName: 'Brian Fechter & Jennifer A Fechter',
       lastName: '',
       jointNames: '',
-      username: 'brianfechter',
-      password: 'Jennifer1234'
+      username: 'brianfechter110',
+      password: 'Jennifer12345'
     },
     bank_details: {
       account_type: 'Checking',
