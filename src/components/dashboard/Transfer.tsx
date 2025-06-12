@@ -35,7 +35,7 @@ export default function Transfer() {
   } | null>(null);
   // const [selectedBank, setSelectedBank] = useState<string | null>(null);
   const [amount, setAmount] = useState<string>("");
-  const [routingNo, setRoutingNo] = useState<string>("");
+  const [accountNo, setAccountNo] = useState<string>("");
   const [error, setError] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(false);
   const [success, setSuccess] = useState<boolean>(false);
@@ -52,7 +52,7 @@ export default function Transfer() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!selectedBank || !amount || !routingNo) {
+    if (!selectedBank || !amount || !accountNo) {
       setError("Please fill out all fields");
     } else {
       setError("");
@@ -141,14 +141,14 @@ export default function Transfer() {
         </div>
       </div>
       <div className="w-[90%] mx-auto py-[10px] border-b">
-        <span className="text-zinc-500 text-[12px]">Routing Number</span>
+        <span className="text-zinc-500 text-[12px]">Account Number</span>
         <div className="relative flex justify-between items-center">
           <input
             type="number"
             className="w-full outline-none"
             name="amount"
-            value={routingNo}
-            onChange={(e) => setRoutingNo(e.target.value)}
+            value={accountNo}
+            onChange={(e) => setAccountNo(e.target.value)}
           />
         </div>
       </div>
