@@ -465,25 +465,25 @@ export const mockAccounts: Account[] = [
       },
       {
         dateTime: "June 1, 2025",
-        description: "Chase Business Complete Banking Monthly fee - XXXXXX9174",
+        description: "Chase Business Complete Banking Monthly fee - XXXXXX4821",
         status: "Success",
         amount_usd: -15.0,
       },
       {
         dateTime: "May 1, 2025",
-        description: "Chase Business Complete Banking Monthly fee - XXXXXX3059",
+        description: "Chase Business Complete Banking Monthly fee - XXXXXX4821",
         status: "Success",
         amount_usd: -15.0,
       },
       {
         dateTime: "April 1, 2025",
-        description: "Chase Business Complete Banking Monthly fee - XXXXXX1267",
+        description: "Chase Business Complete Banking Monthly fee - XXXXXX4821",
         status: "Success",
         amount_usd: -15.0,
       },
       {
         dateTime: "March 1, 2025",
-        description: "Chase Business Complete Banking Monthly fee - XXXXXX5883",
+        description: "Chase Business Complete Banking Monthly fee - XXXXXX4821",
         status: "Success",
         amount_usd: -15.0,
       },
@@ -495,10 +495,10 @@ export const mockAccounts: Account[] = [
       },
       {
         dateTime: "February 1, 2025",
-        description: "Chase Business Complete Banking Monthly fee - XXXXXX7745",
+        description: "Chase Business Complete Banking Monthly fee - XXXXXX4821",
         status: "Success",
         amount_usd: -15.0,
-      },
+      }
     ]
   }
 ];
