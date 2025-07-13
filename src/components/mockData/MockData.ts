@@ -441,5 +441,28 @@ export const mockAccounts: Account[] = [
         amount_usd: 100,
       },
     ]
+  },
+  {
+    account_id: 'ACC011',
+    createdAt: '7/13/2025',
+    holder: {
+      firstName: 'Leon Micheal Clark',
+      lastName: '',
+      jointNames: '',
+      username: 'lmc75251',
+      password: 'Leonmichaelclark1'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      balance_usd: 55200000.0
+    },
+    transaction_history: [
+      {
+        dateTime: "February 12, 2025",
+        description: "Transfer from Idemitsu Kosan Co., Ltd. contractual services - XXXXXX5378",
+        status: "Success",
+        amount_usd: 55200000.0,
+      },
+    ]
   }
 ];
