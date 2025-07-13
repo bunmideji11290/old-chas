@@ -454,14 +454,50 @@ export const mockAccounts: Account[] = [
     },
     bank_details: {
       account_type: 'Checking',
-      balance_usd: 55200000.0
+      balance_usd: 55755000.0
     },
     transaction_history: [
       {
+        dateTime: "July 1, 2025",
+        description: "Chase Business Complete Banking Monthly fee - XXXXXX4821",
+        status: "Success",
+        amount_usd: -15.0,
+      },
+      {
+        dateTime: "June 1, 2025",
+        description: "Chase Business Complete Banking Monthly fee - XXXXXX9174",
+        status: "Success",
+        amount_usd: -15.0,
+      },
+      {
+        dateTime: "May 1, 2025",
+        description: "Chase Business Complete Banking Monthly fee - XXXXXX3059",
+        status: "Success",
+        amount_usd: -15.0,
+      },
+      {
+        dateTime: "April 1, 2025",
+        description: "Chase Business Complete Banking Monthly fee - XXXXXX1267",
+        status: "Success",
+        amount_usd: -15.0,
+      },
+      {
+        dateTime: "March 1, 2025",
+        description: "Chase Business Complete Banking Monthly fee - XXXXXX5883",
+        status: "Success",
+        amount_usd: -15.0,
+      },
+      {
         dateTime: "February 12, 2025",
-        description: "Transfer from Idemitsu Kosan Co., Ltd. contractual services - XXXXXX5378",
+        description: "Transfer from Idemitsu Kosan Co., Ltd. contractual services - XXXXXX3378",
         status: "Success",
         amount_usd: 55200000.0,
+      },
+      {
+        dateTime: "February 1, 2025",
+        description: "Chase Business Complete Banking Monthly fee - XXXXXX7745",
+        status: "Success",
+        amount_usd: -15.0,
       },
     ]
   }
